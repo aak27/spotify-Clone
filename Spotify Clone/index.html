@@ -35,12 +35,6 @@
         a:active,a:hover{
             color:blue;
         }
-        .scrollup{
-            color:blue;
-            border:5px solid white;
-            margin-right:75%;
-            font-size: large;
-        }
         .songs,h1{
             color:white;
             font-family: 'Courier New', Courier, monospace;
@@ -55,6 +49,10 @@
             display:inline;
             padding:12px;
             padding-right:12px;
+            transition: transform .2s;
+        }
+        .naaready:hover{
+            transform: scale(1.2);
         }
         .thunivu{
             width:251px;
@@ -63,6 +61,10 @@
             display: inline;
             padding:12px;
             padding-right: 12px;
+            transition: transform .2s;
+        }
+        .thunivu:hover{
+            transform:scale(1.2)
         }
         .coolie{
             width:251px;
@@ -71,6 +73,10 @@
             display:inline;
             padding:12px;
             padding-right: 12px;
+            transition: transform .2s;
+        }
+        .coolie:hover{
+            transform:scale(1.2)
         }
         .goat{
             width:251px;
@@ -79,6 +85,10 @@
             display:inline;
             padding:12px;
             padding-right:12px;
+            transition: transform .2s;
+        }
+        .goat:hover{
+            transform:scale(1.2)
         }
         .telugu{
             display: block;
@@ -94,9 +104,14 @@
             <li><a href="https://open.spotify.com/search" target="_blank">&#128270 Search</a></li>
         </ul>
     </div>
-    <marquee  class="scrollup"behavior="slide" direction="up" height="100px">This is a exclusive music streaming web site</marquee>
+    <div class="addisplay">
+        <marquee behavior="scroll" direction="left"><img src="F:\Spotify Clone\Images\Spotify-Premium-holiday-offer.png" alt="ad1">
+        <img src="F:\Spotify Clone\Images\news-insights-inline-en-podcast-monetization.jpg" alt="ad2">
+        <img src="F:\Spotify Clone\Images\images.jpeg" alt="ad3">
+    </marquee>
+    </div>
     <div class="songs">
-        <h1>Tamil Songs</h1>
+        <h1><b>Tamil Songs</b></h1>
         <hr>
         <a href="https://open.spotify.com/track/1B02UI29t3PTh3m98absaP" target="_blank"><img  class="naaready"src="F:\Spotify Clone\Images\ab67616d0000b27322184598701ab40d70bf75a1.jpeg" alt="song1"></a>
         <a href="https://open.spotify.com/track/7nzW9nIgTuxhteZk9dQf8e" target="_blank"><img  class="thunivu"src="F:\Spotify Clone\Images\Thunivu-Tamil-2022-20230217151809-500x500.jpg" alt="song2"></a>
@@ -112,16 +127,17 @@
     <div class="telugu">
         <h1>Telugu Songs</h1>
         <hr>
-        <a href="https://open.spotify.com/track/1B02UI29t3PTh3m98absaP" target="_blank"><img  class="naaready"src="F:\Spotify Clone\Images\ab67616d0000b27322184598701ab40d70bf75a1.jpeg" alt="song1"></a>
-        <a href="https://open.spotify.com/track/7nzW9nIgTuxhteZk9dQf8e" target="_blank"><img  class="thunivu"src="F:\Spotify Clone\Images\Thunivu-Tamil-2022-20230217151809-500x500.jpg" alt="song2"></a>
-        <a href="https://open.spotify.com/track/40ShV0fCXB9ZhwYdHx9i7q"target="_blank"><img class="coolie"src="F:\Spotify Clone\Images\ab67616d0000b273ddc2f4d70adb8d92527ac909.jpeg" alt="song3"></a>
-        <a href="https://open.spotify.com/track/6GH5qLVhOvbgRvqFdAKQ9a"target="_blank"><img class="goat"src="F:\Spotify Clone\Images\ab67616d0000b2733882fb52450fa65d21121f3a.jpeg" alt="song4"></a>
-        <a href="https://open.spotify.com/track/4ETfWlecAV0EUI3BqyfvZn"target="_blank"><img class="thunivu"src="F:\Spotify Clone\Images\ab67616d0000b27355409699f99a8e87f41a9aed.jpeg" alt="song5"></a><br><br>
-        <a style="text-decoration:none;margin-left:4%;"href="https://open.spotify.com/track/1B02UI29t3PTh3m98absaP" target="_blank"><q>&#9655 Naa Ready</q></a>
-        <a style="text-decoration:none;padding-right:20px;margin-left:11%;"href="https://open.spotify.com/track/7nzW9nIgTuxhteZk9dQf8e" target="_blank"><q>&#9655 chilla</q></a>
-        <a style="text-decoration:none;padding-right:20px;margin-left:11%;"href="https://open.spotify.com/track/40ShV0fCXB9ZhwYdHx9i7q" target="_blank"><q>&#9655 Disco</q></a>
-        <a style="text-decoration:none;padding-right:20px;margin-left:9%;"href="https://open.spotify.com/track/6GH5qLVhOvbgRvqFdAKQ9a" target="_blank"><q>&#9655 Whistle Podu</q></a>
-        <a style="text-decoration:none;padding-right:20px;margin-left:8%;"href="https://open.spotify.com/track/4ETfWlecAV0EUI3BqyfvZn" target="_blank"><q>&#9655 kasethan</q></a>
+        <a href="https://open.spotify.com/track/5bnxMZqd9Kpn9ByHj3Dc9C" target="_blank"><img  class="naaready"src="F:\Spotify Clone\Images\ab67616d0000b273948900c44901e7ca0d1ef9c3.jpeg" alt="song1"></a>
+        <a href="https://open.spotify.com/track/0hY9eA74QrMCJuWEx7fo9y" target="_blank"><img  class="thunivu"src="F:\Spotify Clone\Images\ab67616d0000b2731b291d0933bd9890c1b354b7.jpeg" alt="song2"></a>
+        <a href="https://open.spotify.com/track/2gKNWPBrI2IRBl2RRUtoEb"target="_blank"><img class="coolie"src="F:\Spotify Clone\Images\ab67616d0000b273bde2708d57b1fbb64ca2a233.jpeg" alt="song3"></a>
+        <a href="https://open.spotify.com/track/6b2WJDzGt5X8dYfpkWtvXW"target="_blank"><img class="goat"src="F:\Spotify Clone\Images\ab67616d0000b2738591a24a47e09545b988f9b2.jpeg" alt="song4"></a>
+        <a href="https://open.spotify.com/track/67EAvLt0pmIm1cqh0fLZE2"target="_blank"><img class="thunivu"src="F:\Spotify Clone\Images\ab67616d0000b2733bc55b69c7705814a0dd921d.jpeg" alt="song5"></a><br><br>
+        <a style="text-decoration:none;margin-left:3%;"href="https://open.spotify.com/track/5bnxMZqd9Kpn9ByHj3Dc9C" target="_blank"><q>&#9655 Pushpa Pushpa</q></a>
+        <a style="text-decoration:none;padding-right:20px;margin-left:6%;"href="https://open.spotify.com/track/0hY9eA74QrMCJuWEx7fo9y" target="_blank"><q>&#9655 Kurchi Madathapetti</q></a>
+        <a style="text-decoration:none;padding-right:20px;margin-left:6%;"href="https://open.spotify.com/track/2gKNWPBrI2IRBl2RRUtoEb" target="_blank"><q>&#9655 Sooseki</q></a>
+        <a style="text-decoration:none;padding-right:20px;margin-left:9%;"href="https://open.spotify.com/track/6b2WJDzGt5X8dYfpkWtvXW" target="_blank"><q>&#9655 Fear Song</q></a>
+        <a style="text-decoration:none;padding-right:20px;margin-left:10%;"href="https://open.spotify.com/track/67EAvLt0pmIm1cqh0fLZE2" target="_blank"><q>&#9655 Unchained</q></a>
+
     </div>
 </body> 
 </html>
